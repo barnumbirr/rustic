@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.11.4](https://github.com/rustic-rs/rustic/compare/v0.11.3...v0.11.4) - 2026-08-15
+
+### Added
+
+- support exclusion on the opendal source ([#1812](https://github.com/rustic-rs/rustic/pull/1812))
+
+### Fixed
+
+- allow scrolling long read-only TUI text ([#1851](https://github.com/rustic-rs/rustic/pull/1851))
+- record CLI version in snapshot metadata ([#1803](https://github.com/rustic-rs/rustic/pull/1803))
+- read stdin-filename from config file ([#1813](https://github.com/rustic-rs/rustic/pull/1813))
+- deny unknown forget options in config profile ([#1810](https://github.com/rustic-rs/rustic/pull/1810))
+- set correct UID/GID for dump into tar ([#1801](https://github.com/rustic-rs/rustic/pull/1801))
+
+### Other
+
+- update the TUI stack ([#1854](https://github.com/rustic-rs/rustic/pull/1854))
+- cover hot/cold check --read-data routing ([#1868](https://github.com/rustic-rs/rustic/pull/1868))
+- Add pCloud service example config ([#1775](https://github.com/rustic-rs/rustic/pull/1775))
+- restic instead of rustic ([#1785](https://github.com/rustic-rs/rustic/pull/1785))
+- Update README ([#1783](https://github.com/rustic-rs/rustic/pull/1783))
+
 ## [0.11.3](https://github.com/rustic-rs/rustic/compare/v0.11.2...v0.11.3) - 2026-06-03
 
 ### Added
